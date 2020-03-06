@@ -1319,5 +1319,18 @@ h1, h2, h3, h4, h5, h6 {
   .mainWrapper__cup_block img {
     height: 20px;
   }
+  .iframe_video {
+    max-width: 320px !important;
+  }
+  .check {
+    display: block !important;
+  }
+  .check input {
+    max-height: 15px !important;
+    margin-left: 0px !important;
+  }
+  .check_text {
+    text-align: center !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

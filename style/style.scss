@@ -1113,5 +1113,19 @@ $mainWhite: #FFFFFF;
         }
         
     }
-
+    .iframe_video{
+        max-width: 320px !important;
+      }
+      .check{
+        display: block !important;
+        input{
+            max-height: 15px !important;
+            margin-left: 0px !important;
+          }
+          
+      }
+      .check_text{
+        text-align: center !important;
+      }
+      
 }

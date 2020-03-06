@@ -173,7 +173,7 @@ let video = document.querySelector('.mainWrapper__video img');
 let onlyBlockVideo = document.querySelector('.mainWrapper__video')
 
 video.addEventListener('click', function(){
-    onlyBlockVideo.innerHTML = '<iframe class="iframe" max-width="560" height="315" src="https://www.youtube.com/embed/_cR5FSlGUZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    onlyBlockVideo.innerHTML = '<iframe class="iframe_video" width="560" height="315" src="https://www.youtube.com/embed/_cR5FSlGUZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 })
 
 
